@@ -5,6 +5,7 @@ import App from './App';
 
 import './assets/css/index.css';
 import './assets/css/App.css';
+
 import * as serviceWorker from './assets/scripts/serviceWorker';
 
 ReactDOM.render(<App />, document.getElementById('app'));

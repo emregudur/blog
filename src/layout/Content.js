@@ -1,8 +1,8 @@
 import React from 'react';
 
-export default class Content extends React.component {
+export default class Content extends React.Component {
 
-	constructor(props){
+	constructor(props) {
 		super(props);
 	}
 

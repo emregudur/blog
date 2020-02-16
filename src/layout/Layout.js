@@ -1,6 +1,14 @@
-import React from 'react';
+import React from 
+'react';
 
-export default class Layout extends React.component {
+import {
+	Content,
+	Footer,
+	Header,
+	NavBar,
+} from './index'
+
+export default class Layout extends React.Component {
 
 	constructor(props){
 		super(props);
@@ -9,8 +17,11 @@ export default class Layout extends React.component {
 
 	render() {
 		return (
-			<div class="header">
-				header
+			<div class="layout">
+				<Header/>
+				<NavBar/>
+				<Content/>
+				<Footer/>
 			</div>
 		);
 	}
